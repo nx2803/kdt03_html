@@ -1,0 +1,23 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(183, 241, 252);
+}
+
+header, main, footer{
+    width: 80%;
+    margin-left: 10%;
+    padding: 20px;
+    display: flex;
+}
+article{
+    width: 80%;
+    padding: 20px;
+    background-color: red;
+    
+}
+section{
+    width: 30%;
+}
