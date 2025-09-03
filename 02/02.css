@@ -1,23 +1,101 @@
-* {
-    padding: 0px;
-    margin: 0px;
-}
-body{
-    background-color: rgb(183, 241, 252);
-}
 
-header, main, footer{
-    width: 80%;
-    margin-left: 10%;
+header,
+main,
+footer {
+    width: 60%;
+    margin-left: 20%;
     padding: 20px;
     display: flex;
+    flex-direction: column;
+    background-color: rgb(210, 238, 255);
 }
-article{
-    width: 80%;
+nav > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 92%;
+    /* height: 150px; */
+    justify-content: right;
+    flex-wrap: wrap;
+    align-items:end;
     padding: 20px;
-    background-color: red;
+}
+
+a {
+    display: inline-block;
+    width: 120px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(53, 117, 255);
+    padding: 5px;
+    margin: 5px;
+}
+
+a:hover {
+    background-color: orange;
+}
+
+article{
+    width: 95%;
+    padding: 20px;
+}
+h1{
+    font-size: 40px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px 15px 10px 15px;
+    margin: 10px 10px 20px 10px;
+    
+
+}
+h1#title{
+    font-size: 70px;
+    margin-left: 5%;
     
 }
-section{
-    width: 30%;
+footer{
+    background-color: black;
+    color: white;
+    list-style: none;
+    
 }
+footer > div{
+    width: 90%;
+    margin-left:5%;
+    
+}
+section > div{
+    display: flex;
+    /* flex-direction: row; */
+    overflow-wrap: break-word;
+    
+    align-items: center;
+    font-size: 150%;
+    
+    
+}
+li{
+    list-style: none;
+}
+
+article > p{
+    font-size: 120%;
+}
+
+h2{
+    font-size: 40px;
+}
+
