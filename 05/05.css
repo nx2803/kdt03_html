@@ -1,0 +1,40 @@
+#spDiv{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#spDiv > span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    color: white;
+    border-radius: 50px;
+    font-weight: bold;
+    margin: 5px;
+}
+.sp0{
+    
+    border: 3px solid rgb(238, 205, 21);
+}
+.sp1{
+    border: 3px solid rgb(21, 122, 238);
+}
+.sp2{
+    border: 3px solid rgb(238, 21, 21);
+}
+.sp3{
+    border: 3px solid rgb(255, 255, 255);
+}
+.sp4{
+    border: 3px solid rgb(57, 238, 21);
+}
+
+.spplus{
+    font-weight: bold;
+    font-size: 50px;
+}
