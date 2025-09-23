@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
             if (user === n) {
-                if (count >8) {
+                if (count >=8) {
                     for (const butt of buttons) {
                         butt.disabled = true;
                         butt.innerText = "🥳"
@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 button.innerText = "😂"
                 console.log(user);
                 count++;
-                result.innerHTML = "폭탄 아님"
+                result.innerHTML = "폭탄 아님 x"+count;
                 result.style.fontSize = '30px'
 
                 button.style.border = '3px solid rgba(43, 255, 89, 1)'
